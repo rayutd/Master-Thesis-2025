@@ -1,9 +1,18 @@
-# Master-Thesis-2025
+# Master Thesis 2025
 
-# Title Master thesis: Teachers and Technology: A Longitudinal Investigation of Attitudes, Perceived Usefulness, and Ease of Use
-#### Author:
-#### Date
-#### Master 
+## Title: Teachers and Technology: A Longitudinal Investigation of Attitudes, Perceived Usefulness, and Ease of Use
+
+### *Exploring Change Over Time Through Latent Growth Curve Models*
+
+ Rayad Sakyar
+
+ May 2025
+
+Assessment, Measurement and Evaluation
+
+Centre for Educational Measurement at the University of Oslo (CEMO)
+
+
 
 This repository contains the R scripts for a longitudinal analysis of technology acceptance examining three key constructs:
 - Attitudes toward technology (ATT)
@@ -14,7 +23,7 @@ The analysis uses longitudinal measurement invariance testing and latent growth 
 
 ## Repository Structure
 
-The repository is organized into four main R scripts, each handling a distinct part of the analysis:
+The repository is organized into five main R scripts, each handling a distinct part of the analysis:
 
 1. **01_data_wrangling.R**
    - Data loading, cleaning, and preparation
@@ -34,6 +43,13 @@ The repository is organized into four main R scripts, each handling a distinct p
    - Combined models examining relationships between constructs
    - Analysis of correlations between initial levels and change trajectories
 
+5. **05_visualization.R**
+   - Data visualization code
+   - Missing data visualizations
+   - Trajectory plots
+   - Covariate effect visualizations
+   - SEM path diagrams
+
 ## Key Findings
 
 - ATT and PU showed stable patterns over time (no-growth models)
@@ -47,9 +63,9 @@ The repository is organized into four main R scripts, each handling a distinct p
 2. Ensure you have the required packages installed:
    ```r
    install.packages(c("lavaan", "dplyr", "tidyverse", "readxl", "naniar", 
-                    "VIM", "psych", "ggplot2", "RColorBrewer"))
+                    "VIM", "psych", "ggplot2", "RColorBrewer", "semPlot"))
    ```
-3. Run the scripts in order (01 → 02 → 03 → 04)
+3. Run the scripts in order (01 → 02 → 03 → 04 → 05)
 4. Each script saves necessary data and model objects for use in subsequent analyses
 
 ## Data Requirements
@@ -65,18 +81,9 @@ The original data file used is "TAM-LT-FullData.xlsx", which should be placed in
 
 This analysis follows the longitudinal structural equation modeling framework as described in:
 
-- Little, T. D. (2013). Longitudinal structural equation modeling. Guilford Press.
-- Newsom, J. T. (2015). Longitudinal structural equation modeling: A comprehensive introduction. Routledge.
 - Technology Acceptance Model (TAM) as proposed by Davis (1989).
+- Little, T. D. (2013). Longitudinal structural equation modeling. Guilford Press.
+- Preacher, K. J., Wichman, A. L., MacCallum, R. C., & Briggs, N. E. (2008). Latent growth curve modeling (1st ed., Vol. 157). Sage Publ.
 
-## License
 
-[Insert your license information here]
 
-## Contact
-
-[Insert your contact information here]
-
-References This analysis follows the longitudinal structural equation modeling framework as described in:
-
-Little, T. D. (2013). Longitudinal structural equation modeling. Guilford Press. Technology Acceptance Model (TAM) as proposed by Davis (1989). Preacher, K. J., Wichman, A. L., MacCallum, R. C., & Briggs, N. E. (2008). Latent growth curve modeling (1st ed., Vol. 157). Sage Publ. https://doi.org/10.4135/9781412984737![image](https://github.com/user-attachments/assets/9cd24083-5d9d-4f9b-b409-8f96579f3c53)
