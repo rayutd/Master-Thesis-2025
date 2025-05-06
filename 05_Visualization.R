@@ -178,9 +178,9 @@ covariate_plot <- ggplot(peou_data, aes(x = Time, y = PEOU, color = Group, group
 print(covariate_plot)
 
 #-------------------------------------------------------------------------------
-# 4. Structural Equation Model Path Diagrams
+# 4. Contexual Structural Equation Model Path Diagrams
 #-------------------------------------------------------------------------------
-# Make sure the semPlot package is loaded
+# semPlot package need to loaded
 library(semPlot)
 
 # Plot the no-growth model for ATT
@@ -196,7 +196,7 @@ semPlot::semPaths(
 
 # Plot the no-growth model with covariates for ATT
 semPlot::semPaths(
-  fit_no_growth_att_cov, 
+  fit_linear_att, 
   "path", "stand", 
   edge.label.cex = 0.7, 
   nCharNodes = 1, 
@@ -207,7 +207,7 @@ semPlot::semPaths(
 
 # Plot the linear growth model with covariates for PEOU
 semPlot::semPaths(
-  fit_linear_peou_cov, 
+  fit_quadratic_att, 
   "path", "stand", 
   edge.label.cex = 0.7, 
   nCharNodes = 1, 
