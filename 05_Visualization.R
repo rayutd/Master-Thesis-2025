@@ -180,7 +180,7 @@ print(covariate_plot)
 #-------------------------------------------------------------------------------
 # 4. Contexual Structural Equation Model Path Diagrams
 #-------------------------------------------------------------------------------
-# semPlot package need to loaded
+# semPlot package needed to be loaded
 library(semPlot)
 
 # Plot the no-growth model for ATT
