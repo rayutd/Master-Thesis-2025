@@ -61,12 +61,6 @@ The repository is organized into five main R scripts, each handling a distinct p
 3. Run the scripts in order (01 → 02 → 03 → 04 → 05)
 4. Each script saves necessary data and model objects for use in subsequent analyses
 
-## Data Requirements
-
-The analysis requires a dataset with the following structure:
-- Multiple time points (T1, T2, T3) of measurement
-- Items for each construct (ATT, PU, PEOU) at each time point
-- Demographic variables (gender, age)
 
 The original data file used is "TAM-LT-FullData.xlsx", which should be placed in the same directory as the scripts.
 
