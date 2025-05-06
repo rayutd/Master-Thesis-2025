@@ -50,13 +50,6 @@ The repository is organized into five main R scripts, each handling a distinct p
    - Covariate effect visualizations
    - SEM path diagrams
 
-## Key Findings
-
-- ATT and PU showed stable patterns over time (no-growth models)
-- PEOU demonstrated a linear change trajectory over time
-- Significant relationships were found between the initial levels of all three constructs
-- Gender and age had varying effects on the development of these technology acceptance factors
-
 ## How to Use
 
 1. Clone this repository
